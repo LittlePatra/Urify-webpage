@@ -1,0 +1,234 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:white;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+.phone{
+    display: inline-block;
+    float: right;
+    background-color: #fff;
+    height: 40%;
+}
+
+.hero {
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 60%;
+  background-color: #fff;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+}
+
+.hero-subtitle {
+  font-size: 24px;
+  color: #666;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:black;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.pad{
+    background-color: #fff;
+    padding: 40px;
+}
+.p2{
+    display: inline-block;
+    width: 30%;
+    height: 30%;
+    background-color: #fff;
+}
+.features {
+  display: inline-block; 
+  float: right;
+  padding: 30px;
+  background-color: #fff;
+}
+.uri{
+    font: size 200px;
+    font-weight: bold;
+}
+
+.features-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ed0909;
+  margin-bottom: 20px;
+}
+
+.features-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.features-description {
+  font-size: 18px;
+  color:black;
+}
+
+.advantages {
+  padding: 50px;
+  background-color: #fff;
+}
+
+.advantages-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.advantages-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.advantages-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #ff0000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.advantages-description {
+  font-size: 18px;
+  color: #666;
+}
+
+footer {
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+
+.footerpart {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+
+}
+.red{
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  background-color: #f82929;
+}
+table{
+  width: 100%;
+  height: 100%;
+  
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+h5{
+  color: #ed0909;
+}
+.free{
+  text-align: left;
+  font-size: 200%;
+  font-family:'Times New Roman', Times, serif;
+}
+td{
+  text-align: center;
+}
+h3{
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+hr{
+  padding: 20px;
+}
